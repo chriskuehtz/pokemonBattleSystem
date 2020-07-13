@@ -409,15 +409,7 @@ const App = () => {
       );
     }
   };
-  const showCongrats = () => {
-    if (congrats === true) {
-      return (
-        <div>
-          <h1>Congratulations, you won!</h1>
-        </div>
-      );
-    }
-  };
+
   return (
     <div className="App" style={fullscreen}>
       <Card style={{ marginTop: "10%", width: "90%", marginLeft: "5%" }}>
@@ -439,11 +431,24 @@ const App = () => {
             mobile(landscape mode) first.
           </p>
           <p>
+            For now, there are only 12 Pokemon, but more will follow over time.
+            Implementing all kinds of unique attacks( e.g. Solar Beam, which
+            takes two turns), takes a lot of time and custom code instead of
+            just damage=attack-defense
+          </p>
+          <p>
+            <h5>
+              Check out the code on Github:
+              <a>https://github.com/chriskuehtz/pokemonBattleSystem</a>
+            </h5>
+            There is a non game-breaking bug with the Power Points of attacks, I
+            am working on it.
+          </p>
+          <p>
             For now, you can try Quick Battles, where you battle an AI opponent
             in a 3v3 battle.
           </p>
 
-          {showCongrats()}
           <Button
             style={{ width: "100%" }}
             color="danger"
