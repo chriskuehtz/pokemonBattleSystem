@@ -1,0 +1,80 @@
+{
+  "potion": {
+    "name": "Potion",
+    "sprite": "potion",
+    "price": "300",
+    "heal": 20,
+    "hold": false,
+    "description": "heals by 20 HP",
+    "category": "Heal Items"
+  },
+  "antidote": {
+    "name": "Antidote",
+    "sprite": "antidote",
+    "price": "100",
+    "statusheal": "poisoned",
+    "description": "heals poisoning",
+    "hold": false,
+    "category": "Heal Items"
+  },
+  "paralyzeheal": {
+    "name": "Para Heal",
+    "sprite": "paralyze-heal",
+    "price": "100",
+    "statusheal": "paralyzed",
+    "description": "heals paralysis",
+    "hold": false,
+    "category": "Heal Items"
+  },
+  "pokeball": {
+    "name": "Pokeball",
+    "sprite": "poke-ball",
+    "price": "200",
+    "catchrate": 1,
+    "description": "can catch pokemon",
+    "hold": false,
+    "category": "Pokeballs"
+  },
+  "greatball": {
+    "name": "Great ball",
+    "sprite": "great-ball",
+    "price": "200",
+    "catchrate": 1.5,
+    "description": "can catch pokemon",
+    "hold": false,
+    "category": "Pokeballs"
+  },
+  "ultraball": {
+    "name": "Ultra ball",
+    "sprite": "ultra-ball",
+    "price": "200",
+    "catchrate": 2,
+    "description": "can catch pokemon",
+    "hold": false,
+    "category": "Pokeballs"
+  },
+  "charcoal": {
+    "name": "Charcoal",
+    "sprite": "charcoal",
+    "price": "100",
+    "boost": "fire",
+    "factor": 1.5,
+    "description": "boosts fire moves",
+    "hold": true,
+    "category": "Hold Items"
+  },
+  "tm01": {
+    "name": "TM01 Headbutt",
+    "sprite": "tm-normal",
+    "price": "100",
+    "description": "teach Headbutt to a Pokemon",
+    "category": "TM's"
+  },
+  "bicycle": {
+    "name": "Bicycle",
+    "sprite": "acro-bike",
+    "price": "100",
+    "description": "they see me rollin, they hatin",
+    "category": "Key Items"
+  }
+}

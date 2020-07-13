@@ -1,0 +1,27 @@
+{
+  "classes": [
+    "Hiker",
+    "Backpacker",
+    "Artist",
+    "Teenager",
+    "Sage",
+    "Pokemaniac",
+    "Scientist"
+  ],
+  "names": [
+    "Jim",
+    "Tom",
+    "Bob",
+    "Chad",
+    "Vlad",
+    "Theodor",
+    "Felix",
+    "Chris",
+    "Jan",
+    "Tobi",
+    "Ben",
+    "Chuck",
+    "Bert",
+    "Don"
+  ]
+}
