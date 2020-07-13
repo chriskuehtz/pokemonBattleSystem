@@ -439,7 +439,10 @@ const App = () => {
           <p>
             <h5>
               Check out the code on Github:
-              <a>https://github.com/chriskuehtz/pokemonBattleSystem</a>
+              <a href="https://github.com/chriskuehtz/pokemonBattleSystem">
+                {" "}
+                GitHub
+              </a>
             </h5>
             There is a non game-breaking bug with the Power Points of attacks, I
             am working on it.
